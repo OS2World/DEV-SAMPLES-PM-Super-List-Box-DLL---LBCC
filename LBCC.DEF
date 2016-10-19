@@ -1,0 +1,16 @@
+
+LIBRARY         LBCC INITINSTANCE TERMINSTANCE 
+
+DESCRIPTION    'Custom Control List Box'
+
+CODE         LOADONCALL EXECUTEREAD NOIOPL NONCONFORMING
+DATA         LOADONCALL READWRITE NOIOPL MULTIPLE NONSHARED
+
+PROTMODE
+
+EXETYPE        OS2
+
+EXPORTS        LBCCRegister @ 1
+               LBCCQuery @ 2
+               LBCCStyles @ 3
+               LBCCAnalystStyles @ 4
